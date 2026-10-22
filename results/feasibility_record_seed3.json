@@ -1,0 +1,141 @@
+{
+ "phases": [
+  {
+   "phase": "launch",
+   "t0": 0.0,
+   "t1": 0.86,
+   "z_start": 0.84,
+   "z_end": 3.57,
+   "z_max": 3.57,
+   "vz_end": 6.4,
+   "vx_end": 8.95,
+   "vy_end": 0.12,
+   "mean_corner_kN": 28.4,
+   "peak_corner_kN": 29.3,
+   "mean_yaw_kN": 0.0,
+   "mean_rear_kN": 0.0,
+   "mean_acc_xyz": [
+    -0.0,
+    -0.1,
+    7.3
+   ],
+   "roll_deg_end": -0.0,
+   "gas_kg": 35.3
+  },
+  {
+   "phase": "roll",
+   "t0": 0.86,
+   "t1": 2.2,
+   "z_start": 3.57,
+   "z_end": 5.96,
+   "z_max": 7.21,
+   "vz_end": -3.84,
+   "vx_end": 8.95,
+   "vy_end": 0.5,
+   "mean_corner_kN": 11.5,
+   "peak_corner_kN": 16.0,
+   "mean_yaw_kN": 0.0,
+   "mean_rear_kN": 0.0,
+   "mean_acc_xyz": [
+    0.0,
+    0.3,
+    -7.6
+   ],
+   "roll_deg_end": 353.1,
+   "gas_kg": 22.6
+  },
+  {
+   "phase": "recover/descent",
+   "t0": 2.2,
+   "t1": 2.6,
+   "z_start": 5.96,
+   "z_end": 4.03,
+   "z_max": 5.89,
+   "vz_end": -6.38,
+   "vx_end": 8.95,
+   "vy_end": 0.54,
+   "mean_corner_kN": 5.5,
+   "peak_corner_kN": 11.0,
+   "mean_yaw_kN": 0.0,
+   "mean_rear_kN": 0.0,
+   "mean_acc_xyz": [
+    0.0,
+    0.1,
+    -6.3
+   ],
+   "roll_deg_end": 359.2,
+   "gas_kg": 3.3
+  },
+  {
+   "phase": "landing burn",
+   "t0": 2.6,
+   "t1": 3.46,
+   "z_start": 4.03,
+   "z_end": 0.87,
+   "z_max": 3.9,
+   "vz_end": -0.9,
+   "vx_end": 8.95,
+   "vy_end": 0.5,
+   "mean_corner_kN": 26.2,
+   "peak_corner_kN": 28.7,
+   "mean_yaw_kN": 0.0,
+   "mean_rear_kN": 0.0,
+   "mean_acc_xyz": [
+    -0.0,
+    -0.0,
+    6.4
+   ],
+   "roll_deg_end": 360.0,
+   "gas_kg": 32.7
+  },
+  {
+   "phase": "touchdown",
+   "t0": 3.46,
+   "t1": 4.08,
+   "z_start": 0.87,
+   "z_end": 0.84,
+   "z_max": 0.86,
+   "vz_end": 0.0,
+   "vx_end": 8.74,
+   "vy_end": -0.05,
+   "mean_corner_kN": 0.7,
+   "peak_corner_kN": 10.0,
+   "mean_yaw_kN": 0.0,
+   "mean_rear_kN": 0.0,
+   "mean_acc_xyz": [
+    -0.3,
+    -0.9,
+    1.5
+   ],
+   "roll_deg_end": 359.9,
+   "gas_kg": 0.8
+  }
+ ],
+ "info": {
+  "success": true,
+  "reason": "landed",
+  "task": "kickflip",
+  "t_end": 4.079999999999935,
+  "maneuver_progress_deg": 359.9406069863221,
+  "max_progress_deg": 360.29650041871184,
+  "maneuver_complete": true,
+  "final_tilt_deg": 0.06871717362224473,
+  "final_rate": 0.010766970232228305,
+  "touch_vz": -0.9004892476335024,
+  "touch_vh": 8.96145677638793,
+  "touch_tilt_deg": 0.019916987153958968,
+  "wheel_contacts": 4,
+  "chassis_contact": false,
+  "obstacle_collision": false,
+  "min_obstacle_clearance": 1.6376368006231896,
+  "gas_left": 155.23533496037405,
+  "peak_height": 6.375198019425496,
+  "ret": 27.02497593995193,
+  "heading_err_deg": 0.0008145070797893132,
+  "final_xy": [
+   35.753521382255734,
+   -0.014273703145709657
+  ],
+  "TimeLimit.truncated": false
+ }
+}

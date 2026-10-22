@@ -1,0 +1,59 @@
+{
+ "train_history": [],
+ "test_bc_only": {
+  "n": 100,
+  "successes": 100,
+  "rate": 1.0,
+  "wilson95": [
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "reasons": {
+   "landed": 100
+  },
+  "failed_checks": {},
+  "mean_progress_deg": 360.51153518842443,
+  "mean_touch_vz": -0.8562004131273672,
+  "mean_gas_left": 154.72844861427905,
+  "mean_peak": 6.281368448646013
+ },
+ "test_bc_ppo": {
+  "n": 100,
+  "successes": 100,
+  "rate": 1.0,
+  "wilson95": [
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "reasons": {
+   "landed": 100
+  },
+  "failed_checks": {},
+  "mean_progress_deg": 362.229715007989,
+  "mean_touch_vz": -1.2087441725850945,
+  "mean_gas_left": 143.56854856411678,
+  "mean_peak": 6.334725978930626
+ },
+ "selected": {
+  "rate": 1.0,
+  "path": "kick_ppo_best.npz",
+  "steps": -1
+ },
+ "test_scripted": {
+  "n": 100,
+  "successes": 100,
+  "rate": 1.0,
+  "wilson95": [
+   0.9630051925239981,
+   0.9999999999999999
+  ],
+  "reasons": {
+   "landed": 100
+  },
+  "failed_checks": {},
+  "mean_progress_deg": 360.35960771780515,
+  "mean_touch_vz": -0.7744988194756569,
+  "mean_gas_left": 155.16765498780723,
+  "mean_peak": 6.329527104544243
+ }
+}

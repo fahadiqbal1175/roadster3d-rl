@@ -1,0 +1,58 @@
+[
+ {
+  "a_land": 4.0,
+  "margin": 1.1,
+  "success": 15,
+  "chassis": 4,
+  "mean_gas": 162.10602399717817
+ },
+ {
+  "a_land": 4.0,
+  "margin": 1.3,
+  "success": 15,
+  "chassis": 4,
+  "mean_gas": 157.8362740401069
+ },
+ {
+  "a_land": 5.0,
+  "margin": 1.1,
+  "success": 15,
+  "chassis": 4,
+  "mean_gas": 164.7681783636467
+ },
+ {
+  "a_land": 5.0,
+  "margin": 1.3,
+  "success": 15,
+  "chassis": 3,
+  "mean_gas": 160.57422120851612
+ },
+ {
+  "a_land": 6.0,
+  "margin": 1.1,
+  "success": 14,
+  "chassis": 2,
+  "mean_gas": 167.5913298028493
+ },
+ {
+  "a_land": 6.0,
+  "margin": 1.3,
+  "success": 14,
+  "chassis": 2,
+  "mean_gas": 163.9170475237777
+ },
+ {
+  "a_land": 7.0,
+  "margin": 1.1,
+  "success": 14,
+  "chassis": 2,
+  "mean_gas": 170.67296031185933
+ },
+ {
+  "a_land": 7.0,
+  "margin": 1.3,
+  "success": 14,
+  "chassis": 3,
+  "mean_gas": 167.59166051130143
+ }
+]

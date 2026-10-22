@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*_frames/
+*_last.npz
+scratch_*.npz
+*_data.npz
+*.log
+*.flag
+.DS_Store

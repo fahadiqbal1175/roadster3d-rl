@@ -1,0 +1,105 @@
+{
+ "results": [
+  {
+   "name": "1 zero thrust gives ballistic motion",
+   "passed": true,
+   "detail": "pos err 8.88e-13 m, vel err 1.95e-13 m/s over 3.0s"
+  },
+  {
+   "name": "2a balanced corner nozzles: +Z force, no torque",
+   "passed": true,
+   "detail": "F=[    0.     0. 32000.], tau=[0. 0. 0.]"
+  },
+  {
+   "name": "2b balanced rear nozzles: +X force (plume rearward), no torque",
+   "passed": true,
+   "detail": "F=[80000.     0.     0.], tau=[0. 0. 0.]"
+  },
+  {
+   "name": "3a left corners fire: +roll torque tau_x=+14.4 kN m",
+   "passed": true,
+   "detail": "tau=[14400.     0.     0.]"
+  },
+  {
+   "name": "3b front corners fire: nose-up torque tau_y<0",
+   "passed": true,
+   "detail": "tau=[     0. -27200.      0.]"
+  },
+  {
+   "name": "3c yawL fires: force -Y at the nose, tau_z<0",
+   "passed": true,
+   "detail": "F=[    0. -3000.     0.], tau=[    0.     0. -5700.]"
+  },
+  {
+   "name": "3d integrated roll acceleration matches tau/Ixx",
+   "passed": true,
+   "detail": "measured 17.864 vs expected 17.864 rad/s^2"
+  },
+  {
+   "name": "4 quaternion stays normalised",
+   "passed": true,
+   "detail": "|q|-1 = 0.00e+00 after 5000 control steps (100 s)"
+  },
+  {
+   "name": "5 torque-free tumbling conserves |L| and KE",
+   "passed": true,
+   "detail": "max rel drift L 2.2e-05, KE 1.5e-05 over 10 s (dt=5 ms)"
+  },
+  {
+   "name": "6 a 360 deg roll passes through 90 and 180 deg tilt",
+   "passed": true,
+   "detail": "max tilt 178.8 deg, tilt at quarter 91.7 deg, unwrapped twist 362.1 deg"
+  },
+  {
+   "name": "7a thrust direction in world for upright/sideways/inverted attitudes",
+   "passed": true,
+   "detail": "upright: world dir [0. 0. 1.]; rolled +90: world dir [ 0. -1.  0.]; rolled -90: world dir [0. 1. 0.]; inverted: world dir [ 0. -0. -1.]"
+  },
+  {
+   "name": "7b inverted: up-nozzles push the car down",
+   "passed": true,
+   "detail": "v_z = -14.37 m/s after 0.52s (free fall would be -5.10)"
+  },
+  {
+   "name": "7c rolled 90 deg: corner jets push the car toward world -Y",
+   "passed": true,
+   "detail": "v = [ 0.   -8.89 -4.9 ]"
+  },
+  {
+   "name": "8a landing drop: total energy (KE+PE+spring) never exceeds its initial value",
+   "passed": true,
+   "detail": "max of E(t)-E(0) once contact forces act = 0.0 J (scale m g h = 50014 J). Separate bookkeeping artifact: the first step of a contact is detected one step late, spring energy 0.5 k pen^2 of 50.5 J (0.10% of the drop energy) appears for that step only"
+  },
+  {
+   "name": "8b upright car comes to rest on its wheels at the expected height",
+   "passed": true,
+   "detail": "rest z 0.8383 m vs expected 0.8383 m, |v|=7.5e-15"
+  },
+  {
+   "name": "8c2 3 m/s touchdown does not bottom out the landing gear",
+   "passed": true,
+   "detail": "max chassis penetration 0.0000 m"
+  },
+  {
+   "name": "8d inverted drop is flagged as chassis contact",
+   "passed": true,
+   "detail": "max chassis penetration 0.0960 m"
+  },
+  {
+   "name": "8e rest height insensitive to dt (5 ms vs 2.5 ms)",
+   "passed": true,
+   "detail": "0.83832 vs 0.83832 m"
+  },
+  {
+   "name": "8f car rolls on after landing with forward speed (low rolling friction), no energy gain",
+   "passed": true,
+   "detail": "vx after 6 s: 5.53 m/s (analytic rolling-resistance estimate 6.2)"
+  },
+  {
+   "name": "9 gas used equals impulse / (Isp g0)",
+   "passed": true,
+   "detail": "used 167.156 kg vs 167.156 kg"
+  }
+ ],
+ "sim_steps_per_s": 1333.5588624683485
+}

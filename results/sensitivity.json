@@ -1,0 +1,162 @@
+[
+ {
+  "condition": "nominal",
+  "policy_success": 20,
+  "policy_reasons": {
+   "landed": 20
+  },
+  "scripted_success": 20,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "thrust x0.6",
+  "policy_success": 0,
+  "policy_reasons": {
+   "obstacle_collision": 20
+  },
+  "scripted_success": 0,
+  "scripted_reasons": {
+   "obstacle_collision": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "thrust x0.7",
+  "policy_success": 0,
+  "policy_reasons": {
+   "obstacle_collision": 20
+  },
+  "scripted_success": 0,
+  "scripted_reasons": {
+   "obstacle_collision": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "thrust x0.8",
+  "policy_success": 0,
+  "policy_reasons": {
+   "obstacle_collision": 20
+  },
+  "scripted_success": 0,
+  "scripted_reasons": {
+   "landed": 15,
+   "obstacle_collision": 5
+  },
+  "n": 20
+ },
+ {
+  "condition": "thrust x0.9",
+  "policy_success": 0,
+  "policy_reasons": {
+   "landed": 20
+  },
+  "scripted_success": 20,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "thrust x1.1",
+  "policy_success": 20,
+  "policy_reasons": {
+   "landed": 20
+  },
+  "scripted_success": 20,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "thrust x1.2",
+  "policy_success": 16,
+  "policy_reasons": {
+   "landed": 20
+  },
+  "scripted_success": 20,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "corner nozzles x0.6",
+  "policy_success": 0,
+  "policy_reasons": {
+   "obstacle_collision": 20
+  },
+  "scripted_success": 0,
+  "scripted_reasons": {
+   "obstacle_collision": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "corner nozzles x0.75",
+  "policy_success": 0,
+  "policy_reasons": {
+   "obstacle_collision": 20
+  },
+  "scripted_success": 0,
+  "scripted_reasons": {
+   "obstacle_collision": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "mass x0.85",
+  "policy_success": 1,
+  "policy_reasons": {
+   "landed": 20
+  },
+  "scripted_success": 20,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "mass x1.15",
+  "policy_success": 0,
+  "policy_reasons": {
+   "landed": 5,
+   "chassis_contact": 11,
+   "obstacle_collision": 4
+  },
+  "scripted_success": 13,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "roll inertia x0.8",
+  "policy_success": 8,
+  "policy_reasons": {
+   "landed": 20
+  },
+  "scripted_success": 20,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ },
+ {
+  "condition": "roll inertia x1.25",
+  "policy_success": 0,
+  "policy_reasons": {
+   "chassis_contact": 19,
+   "landed": 1
+  },
+  "scripted_success": 19,
+  "scripted_reasons": {
+   "landed": 20
+  },
+  "n": 20
+ }
+]
